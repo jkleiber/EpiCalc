@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bci"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Compfo"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+             <Button
+        android:id="@+id/bgen"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        
+        android:text="General Math" />
+
+    <Button
+        android:id="@+id/balg"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="Algebra I and II" />
+
+    <Button
+        android:id="@+id/bgeom"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="Geometry" />
+
+    <Button
+        android:id="@+id/bprecal"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="Pre-Calculus" />
+<!--
+    <Button
+        android:id="@+id/bphysic"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:background="@drawable/formbutton"
+        android:text="Physics" />
+-->
+    <Button
+        android:id="@+id/bstats"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="Statistics" />
+<!--
+    <Button
+        android:id="@+id/belect"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:background="@drawable/formbutton"
+        android:text="Electrical Math" /> -->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/layout/main.xml -->

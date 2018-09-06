@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/epibg"
+    android:orientation="vertical" >
+
+   <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/tvform"
+        android:text="@string/Choose"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bci"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/formbutton"
+        android:text="@string/Compfo"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="0.60" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                
+                android:background="@drawable/tvform"
+                android:gravity="center"
+                android:text="@string/Gen"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/barea"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Areas"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bFtd"
+                android:layout_width="match_parent"
+                
+                android:text="@string/F2D"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bR2D"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/R2D"
+                android:textSize="18sp" />
+            
+            <Button
+                android:id="@+id/bProps"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Props"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bSF"
+                android:layout_width="match_parent"
+                
+                android:text="@string/SFrac"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bVOL"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Vol"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tvform"
+                android:gravity="center"
+                android:text="@string/Algebra"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/baos"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/Aos"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bpyh"
+                android:layout_width="match_parent"
+                
+                android:text="@string/pyH"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bptl"
+                android:layout_width="match_parent"
+                
+                android:text="@string/pyL"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bqf"
+                android:layout_width="match_parent"
+                
+                android:text="@string/QF"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bSr"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:layout_height="47dp"
+                android:text="@string/Rad"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bmx"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/M"
+                android:textSize="18sp" />
+            
+            <Button
+                android:id="@+id/bSys"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/Sys"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tvform"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/Geom"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <!--          <Button
+                android:id="@+id/bCF"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/CF"
+                android:textSize="18sp" />
+ -->  
+            <Button
+                android:id="@+id/bDf"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/DF"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/bLSC"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Laws"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bMf"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/Mid"
+                android:textSize="18sp" />
+<!-- 
+            <Button
+                android:id="@+id/bPA"
+                android:layout_width="match_parent"
+                
+                android:text="Polygon Angles"
+                android:textSize="18dp" />
+ -->
+            <Button
+                android:id="@+id/bSur"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:text="@string/DSA"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bTat"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                
+                android:text="@string/TFA"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bTfs"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/TFS"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tvform"
+                android:gravity="center"
+                android:text="@string/PreCal"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <!--
+                <Button
+                android:id="@+id/bBP"
+                android:layout_width="match_parent"
+                
+                android:text="Binomial Probability" 
+                android:textSize="18dp"/>
+            -->
+
+            <Button
+                android:id="@+id/bCE"
+                android:layout_width="match_parent"
+                
+                android:text="@string/CE"
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bfact"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Fact"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bPerm"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/Perm"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tvform"
+                android:gravity="center"
+                android:text="@string/Phys"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/bTime"
+                android:layout_width="match_parent"
+                
+                android:text="@string/PMT"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" />
+            <!--
+                  <Button
+                android:id="@+id/bPress"
+                android:layout_width="match_parent"
+                
+                android:text="Pressure" 
+                android:textSize="18dp" />
+            -->
+
+            <Button
+                android:id="@+id/bfpr"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/FPR"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bpm"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                
+                android:layout_height="47dp"
+                android:text="@string/LPR"
+                android:textSize="18sp" />
+
+            
+
+
+            
+
+            <Button
+                android:id="@+id/bvpm"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                
+                android:text="@string/LPV"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tvform"
+                android:gravity="center"
+                android:text="@string/Stat"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/bFE"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/Ferr"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bPE"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                
+                android:layout_height="47dp"
+                android:text="@string/Perr"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tvform"
+                android:gravity="center"
+                android:text="@string/Elec"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/bapo"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/CPE"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bress"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:background="@drawable/formbutton"
+                
+                android:text="@string/Sres"
+                android:textSize="18sp" />
+            
+</LinearLayout>
+</ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/layout/old_main.xml -->

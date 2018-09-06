@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="Tsid">
+			<item>Known Hypotenuse</item>
+			<item>Known Opposite</item>
+			<item>Known Adjacent</item>
+		</string-array>
+    <string-array name="area">
+			<item>Square</item>
+			<item>Triangle</item>
+			<item>Triangle (Heron Formula)</item>
+			<item>Trapezoid</item>
+			<item>Circle</item>
+			<item>Rectangle</item>
+			<item>Parallelogram</item>
+			<item>Pentagon</item>
+			<item>Hexagon</item>
+			<item>Octagon</item>
+			<item>Decagon</item>
+
+
+		</string-array>
+    <string-array name="circ">
+			<item>2 Tangents</item>
+			<item>2 Secants</item>
+			<item>1 Tangent &amp; 1 Secant</item>
+
+			<item>Known Intercepted Arc</item>
+			<item>Known Inscribed Angle</item>
+
+			<item>Known 2 Arc Measures</item>
+			<item>Known 1 Angle, 1 Arc</item>
+
+			<item>Sectors</item><!-- #7 -->
+
+			<item>Segment of 2 Chords</item>
+
+			<item>2 Secants for External seg.</item>
+			<item>2 Secants for Internal seg.</item>
+
+			<item>1 Tan, 1 Sec For Internal Secant seg.</item>
+			<item>1 Tan, 1 Sec For External Secant seg.</item>
+			<item>1 Tan, 1 Sec For Tangent</item>
+
+			<item>Segment of a sector</item>
+
+			<item>Inverse 2 Tangents</item>
+			<item>Inverse 2 Secants</item>
+			<item>Inverse 1 Tangent &amp; 1 Secant</item><!-- 18 Items, 0-17 -->
+			<item>Arc Length</item>
+			<item>Arc Measure</item><!-- 20 items pos 19 -->
+		</string-array>
+    <string-array name="fd">
+			<item>Single Digit Repeating Decimals (.xxxx...)</item>
+			<item>Multi Digit Repeating Decimals (.yxyx...)</item>
+			<item>Decimal with a Repeating end (.xyyyy...)</item>
+		</string-array>
+    <string-array name="sincos">
+			<item>Cosines for Sides</item>
+			<item>Cosine for Angles</item>
+			<item>Sines for Sides</item>
+			<item>Sines for Angles</item>
+		</string-array>
+    <string-array name="theta">
+			<item>Hyp and Opposite Side</item>
+			<item>Hyp and Adjacent Sides</item>
+			<item>Opposite and Adjacent Sides</item>
+		</string-array>
+    <string-array name="time">
+			<item>Known Heights</item>
+			<item>Known Velocity and Angle</item>
+		</string-array>
+    <string-array name="vols">
+			<item>Prisms</item>
+			<item>Cylinders</item>
+			<item>Pyrimids</item>
+			<item>Cones</item>
+			<item>Spheres</item>
+			<item>Frustums of Cones</item>
+		</string-array>
+    <!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AP">Enter the A part of the equation</string>
+    <string name="Algebra">Algebra</string>
+    <string name="Amp">Amperage</string>
+    <string name="Aos">Axis of Symmetry (AOS)</string>
+    <string name="Areas">Area Equations</string>
+    <string name="BP">Enter the B part of the equation</string>
+    <string name="CE">Combination Equation</string>
+    <string name="CF">Circle Formulas</string>
+    <string name="CPE">Current/Power Equations</string>
+    <string name="Choose">Choose The Type of Problem</string>
+    <string name="Compfo">Information</string>
+    <string name="DF">Distance Formula</string>
+    <string name="DSA">Surface Area 3D Figures</string>
+    <string name="Elec">Electronics</string>
+    <string name="F2D">Decimal to Fraction Converter</string>
+    <string name="FPR">Range of Falling Projectiles</string>
+    <string name="Fact">Factorials</string>
+    <string name="Ferr">Fractional Error</string>
+    <string name="Gen">General</string>
+    <string name="Geom">Geometry</string>
+    <string name="LPR">Range of Launched Projectiles</string>
+    <string name="LPV">Velocity of a Launched Projectile</string>
+    <string name="Laws">Law of Sines and Cosines</string>
+    <string name="M">Slope</string>
+    <string name="Mid">Midpoint Formula</string>
+    <string name="PMT">Time in Projectile Motion</string>
+    <string name="PROJECTILE">Projectile Motion</string>
+    <string name="Perm">Permutations</string>
+    <string name="Perr">Percent Error</string>
+    <string name="Phys">Physics</string>
+    <string name="Pow">Power</string>
+    <string name="PreCal">Pre-Calculus</string>
+    <string name="Props">Proportions</string>
+    <string name="QF">Quadratic Formula</string>
+    <string name="R2D">Radians to Degrees Converter</string>
+    <string name="Rad">Simplifying Radicals</string>
+    <string name="SFrac">Simplifying Fractions</string>
+    <string name="Sres">Series Resistance</string>
+    <string name="Stat">Statistics</string>
+    <string name="Sys">Systems of Equations</string>
+    <string name="TFA">Trigonometry for Angles</string>
+    <string name="TFS">Trigonometry for Sides</string>
+    <string name="TRIG">Trigonometry</string>
+    <string name="Vol">Volume</string>
+    <string name="Volts">Enter Voltage (volts)</string>
+    <string name="app_name">EpiCalc</string>
+    <!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="ga_trackingId">UA-44928171-1</string>
+    <!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello">Hello World, MainMenu!</string>
+    <string name="ohm">Enter total resistance (ohms)</string>
+    <string name="pyH">Pythagorean Theorem (Hypotenuse)</string>
+    <string name="pyL">Pythagorean Theorem (Leg)</string>
+    <string name="pythag">Pythagorean Theorum</string>
+</resources>

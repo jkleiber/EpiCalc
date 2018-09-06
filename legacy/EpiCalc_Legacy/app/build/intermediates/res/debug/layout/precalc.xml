@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!--
+                <Button
+                android:id="@+id/bBP"
+                android:layout_width="match_parent"
+                
+                android:text="Binomial Probability" 
+                android:textSize="18dp"/>
+            -->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <Button
+                android:id="@+id/bCE"
+                android:layout_width="match_parent"
+                
+                android:text="@string/CE"
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bfact"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Fact"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bPerm"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Perm"
+                android:textSize="18sp" />
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+    
+</RelativeLayout>
+<!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/layout/precalc.xml -->

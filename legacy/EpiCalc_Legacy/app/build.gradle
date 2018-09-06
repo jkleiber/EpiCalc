@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 13
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.justinkleiber.epicalc"
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/libGoogleAnalyticsServices.jar')
+    compile files('libs/TapForTap.jar')
+}

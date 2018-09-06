@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.justinkleiber.epicalc" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/HoloLight">
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN_SCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".algebra.AlgebraMenu"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ALGEBRA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+                    android:name=".algebra.AxisOfSymmetry"
+                    android:label="@string/app_name"
+                    android:parentActivityName=".algebra.AlgebraMenu">
+                    <intent-filter>
+                        <action android:name="android.intent.action.AOS_FORMULA" />
+                        <category android:name="android.intent.category.DEFAULT" />
+                    </intent-filter>
+                </activity>
+                <activity
+                    android:name=".algebra.PolynomialFactoring"
+                    android:label="@string/app_name"
+                    android:parentActivityName=".algebra.AlgebraMenu">
+                    <intent-filter>
+                        <action android:name="android.intent.action.POLY_FORMULA" />
+                        <category android:name="android.intent.category.DEFAULT" />
+                    </intent-filter>
+                </activity>
+                <activity
+                    android:name=".algebra.QuadraticEquations"
+                    android:label="@string/app_name"
+                    android:parentActivityName=".algebra.AlgebraMenu">
+                    <intent-filter>
+                        <action android:name="android.intent.action.QUAD_FORMULA" />
+                        <category android:name="android.intent.category.DEFAULT" />
+                    </intent-filter>
+                </activity>
+
+        <activity
+            android:name=".geometry.GeometryMenu"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.GEOMETRY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".precalculus.PrecalMenu"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.PRECAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".statistics.StatsMenu"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.STATISTICS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

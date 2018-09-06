@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Justin\Dropbox\Programming\Android\STUDIO\EpiCalc\app\libs\TapForTap.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="507c209193567067357deda958b06792d2c45d4b">
+        <dex dex="C:\Users\Justin\Dropbox\Programming\Android\STUDIO\EpiCalc\app\build\intermediates\pre-dexed\debug\TapForTap-d3b713d2218c6b791f65fdb9bf0bfd4ed11a6b2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Justin\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Justin\Dropbox\Programming\Android\STUDIO\EpiCalc\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-cb477afc5b89e1504b0a318b27a0a4c32a2a8413.jar" />
+    </item>
+    <item
+        jar="C:\Users\Justin\Dropbox\Programming\Android\STUDIO\EpiCalc\app\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="C:\Users\Justin\Dropbox\Programming\Android\STUDIO\EpiCalc\app\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices-0eb8acd208248fe48f659cc4abb404ef609139a9.jar" />
+    </item>
+
+</items>

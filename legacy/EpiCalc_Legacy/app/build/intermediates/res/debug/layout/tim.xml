@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tVhpo"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black"
+            android:text="Hangtime:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tVans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerA"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/expandbutton" />
+
+    <EditText
+        android:id="@+id/ETmax"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundedrect"
+        android:hint="Enter Maximum Height"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/ETmin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundedrect"
+        android:hint="Enter Minimum Height"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ETgrav"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundedrect"
+        android:hint="Enter Gravity"
+        android:inputType="number|numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/etHeigh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundedrect"
+        android:ems="10"
+        android:hint="Enter Starting Height"
+        android:inputType="number|numberDecimal|numberSigned" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ent" />
+
+</LinearLayout><!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/layout/tim.xml -->

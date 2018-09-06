@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+         
+             <Button
+                android:id="@+id/barea"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Areas"
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bFtd"
+                android:layout_width="match_parent"
+                
+                android:text="@string/F2D"
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bR2D"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/R2D"
+                android:textSize="18sp" />
+            
+            <Button
+                android:id="@+id/bProps"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Props"
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bSF"
+                android:layout_width="match_parent"
+                
+                android:text="@string/SFrac"
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

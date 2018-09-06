@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!--          <Button
+                android:id="@+id/bCF"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:text="@string/CF"
+                android:textSize="18sp" />
+ -->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+             <Button
+                android:id="@+id/bDf"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:text="@string/DF"
+                android:textSize="18sp" >
+            </Button>
+
+            <Button
+                android:id="@+id/bLSC"
+                android:layout_width="match_parent"
+                
+                android:text="@string/Laws"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bMf"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:text="@string/Mid"
+                android:textSize="18sp" />
+<!-- 
+            <Button
+                android:id="@+id/bPA"
+                android:layout_width="match_parent"
+                
+                android:text="Polygon Angles"
+                android:textSize="18dp" />
+ -->
+            <Button
+                android:id="@+id/bSur"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:text="@string/DSA"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bTat"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                
+                android:text="@string/TRIG"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bVOL"
+                android:layout_width="match_parent"
+
+                android:text="@string/Vol"
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+<!--
+            <Button
+                android:id="@+id/bTfs"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                
+                android:layout_marginTop="5dp"
+                android:text="@string/TFS"
+                android:textSize="18sp" /> !-->
+    
+            
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/layout/geometry.xml -->

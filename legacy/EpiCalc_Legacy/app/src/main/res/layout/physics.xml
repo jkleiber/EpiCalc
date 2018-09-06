@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<!--
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+             <Button
+                android:id="@+id/bTime"
+                android:layout_width="match_parent"
+                
+                android:text="@string/PROJECTILE"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+
+                  <Button
+                android:id="@+id/bPress"
+                android:layout_width="match_parent"
+                
+                android:text="Pressure" 
+                android:textSize="18dp" />
+
+
+            <Button
+                android:id="@+id/bfpr"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:text="@string/FPR"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bpm"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                
+                android:layout_height="47dp"
+                android:text="@string/LPR"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bvpm"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                
+                android:text="@string/LPV"
+                android:layout_height="47dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bGravity"
+                android:layout_width="match_parent"
+
+                android:text="@string/UniversalGravity"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/bTorque"
+                android:layout_width="match_parent"
+
+                android:text="@string/TORQUE"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+   -->
+</RelativeLayout>

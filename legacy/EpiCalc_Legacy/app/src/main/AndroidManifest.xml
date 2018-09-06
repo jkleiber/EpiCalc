@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.justinkleiber.epicalc"
+    android:versionCode="16"
+    android:versionName="2.2" >
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	 
+	<application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+         >
+         
+	<activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation"/>
+	<activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation"/>
+	<activity android:name="com.mopub.mobileads.MraidBrowser" android:configChanges="keyboardHidden|orientation"/>
+	<activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation"/>
+	<activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+	<activity android:name="com.millennialmedia.android.MMActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation|keyboard" />
+	<activity android:name="com.millennialmedia.android.VideoPlayer" android:configChanges="keyboardHidden|orientation|keyboard" />
+      
+        <activity
+            android:name=".Splash" android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu" android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MA" />
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pyth" android:label="Pythagorean Theorum(Hypotenuse)" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PY" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Quad" android:label="Quadratic Formula" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.QF" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+         <activity
+            android:name=".AmPow" android:label="Current/Power Equations" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.AP" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Lpro" android:label="Launched Projectiles" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.LPO" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Fpro" android:label="Dropped/Falling Projectiles" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FPO" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+          <activity
+            android:name=".Slope" android:label="Slope" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SLO" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Pythl" android:label="Pythagorean Theorum(Leg)" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PYL" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Frac" android:label="Fractional Error" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FRAC" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Theta" android:label="Solving for theta" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.THET" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Aos" android:label="Axis of Symmetry" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.AOS" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Vpm" android:label="Velocity of a launched projectile" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VPM" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+         <activity
+            android:name=".MidPt" android:label="Midpoint Formula" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MF" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Distance" android:label="Distance Formula" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.DF" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Radical" android:label="Simplifying radicals" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.RADS" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Tsides" android:label="Trig sides" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.TS" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Sres" android:label="Series Resistance" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SRES" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Area" android:label="Area Equations" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ARE" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Sfrac" android:label="Simplifying Fractions" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SF" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Volume" android:label="Volumes of 3d figures" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VOL" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Laws" android:label="Law of Sines/Cosines" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.LSC" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+         <activity
+            android:name=".Surf" android:label="3D Figure Surface Area" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FSA" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Fact" android:label="Factorials" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FACT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Perm" android:label="Permutations" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PERM" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+         <activity
+            android:name=".Combine" android:label="Combination Equation" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.CO" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Perr" android:label="Percent Error" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PE" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Times" android:label="Time in Projectile Motion" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.TPM" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name=".Info" android:label="Information" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.IN" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Circ" android:label="Circle Formulas" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.CIRC" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.RadstoDegs" android:label="Radians to Degrees Converter" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.RTD" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Fdecimal" android:label="Decimal to Fraction Converter" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FTD" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Systems" android:label="Systems of Equations" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SYS" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Prop" android:label="Proportions" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PROPS" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.WorkShower" android:label="Work" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.WORK" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.General" android:label="General Math" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.GEN" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Algebra" android:label="Algebra I and II" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ALG" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Geometry" android:label="Geometry" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.GEOM" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Precalc" android:label="Pre-Calculus" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PRE_C" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Physics" android:label="Physics" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PHYS" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Electrical" android:label="Electronics Math" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ELEC" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+        <activity
+            android:name="com.justinkleiber.epicalc.Statistics" android:label="Statistics" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.STATIS" />
+				<category android:name="android.intent.category.DEFAULT" />
+				</intent-filter>
+        </activity>
+
+       
+    </application>
+</manifest>

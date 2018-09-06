@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/baos"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:text="@string/Aos"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bpyh"
+                android:layout_width="match_parent"
+                
+                android:text="@string/pythag"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+<!--
+            <Button
+                android:id="@+id/bptl"
+                android:layout_width="match_parent"
+                
+                android:text="@string/pyL"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/formbutton"
+                android:textSize="18sp" /> !-->
+
+            <Button
+                android:id="@+id/bqf"
+                android:layout_width="match_parent"
+                
+                android:text="@string/QF"
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bSr"
+                android:layout_width="match_parent"
+                
+                android:layout_marginTop="5dp"
+                android:layout_height="47dp"
+                android:text="@string/Rad"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bmx"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/M"
+                android:textSize="18sp" />
+            
+            <Button
+                android:id="@+id/bSys"
+                android:layout_width="match_parent"
+                
+                android:layout_height="47dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Sys"
+                android:textSize="18sp" />
+    
+        </LinearLayout>
+    </ScrollView>
+    
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/layout/algebra.xml -->

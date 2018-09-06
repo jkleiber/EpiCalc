@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tVhpo"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black"
+            android:text="The Hypotenuse is: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tVans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ETpyh1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedrect"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:hint="Enter first leg measurement."
+        android:inputType="number|numberDecimal"
+         />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_weight="1"
+        android:background="@drawable/trips" />
+
+    <EditText
+        android:id="@+id/ETpyh2"
+        android:layout_width="match_parent"
+        android:background="@drawable/roundedrect"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:hint="Enter second leg measurement."
+        android:inputType="number|numberDecimal"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bent"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/ent" />
+
+   
+</LinearLayout>
+<!-- From: file:/C:/Users/Justin/Dropbox/Programming/Android/STUDIO/EpiCalc/app/src/main/res/layout/pythag.xml -->
